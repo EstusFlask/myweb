@@ -1,98 +1,120 @@
-.container {
-  margin: 0 auto;
-  width: 90%;
+/*Fuentes importadas 
+1-BRAND TITTLE
+
+*/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+body {
+  
+  /*background-color:#fff;*/
 }
 
-.navbar-brand img {
-  width: 10%;
+.container {
+  margin: 0 auto;
+  background:linear-gradient(180deg, #00427F, #0083FF);
+  width: 100%;
+}
+
+#particlespace {
+  height: 500px;
+  
+}
+
+#row1 {
+  margin-top: 20px;
+}
+
+#mybrand, #bs-example-navbar-collapse-1 {
+ font-family: 'Roboto', sans-serif;
 }
 
 .navbar-default {
-  background-color: #ffffff;
-  border-color: #ffffff;
+  background-color: rgba(255,255,255,0);
+  border-color:  rgba(255,255,255,0);;
 }
 .navbar-default .navbar-brand {
-  color: #262229;
+  color: white;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #262229;
+  color: white;
 }
 .navbar-default .navbar-text {
-  color: #262229;
+  color: white;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #262229;
+  color: white;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #262229;
+  color: white;
 }
 .navbar-default .navbar-nav > li > .dropdown-menu {
-  background-color: #ffffff;
+  background-color:  rgba(255,255,255,0);
 }
 .navbar-default .navbar-nav > li > .dropdown-menu > li > a {
-  color: #262229;
+  color: white;
 }
 .navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
 .navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
-  color: #262229;
-  background-color: #ffffff;
+  color: white;
+  background-color:  rgba(255,255,255,0);
 }
 .navbar-default .navbar-nav > li > .dropdown-menu > li.divider {
-  background-color: #ffffff;
+  background-color:  rgba(255,255,255,0);
 }
 .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
 .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
 .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-  color: #262229;
-  background-color: #ffffff;
+  color: white;
+  background-color:  rgba(255,255,255,0);
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #262229;
-  background-color: #ffffff;
+  color: white;
+  background-color:  rgba(255,255,255,0);
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-  color: #262229;
-  background-color: #ffffff;
+  color: white;
+  background-color:  rgba(255,255,255,0);
 }
 .navbar-default .navbar-toggle {
-  border-color: #ffffff;
+  border-color:  rgba(255,255,255,0);;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #ffffff;
+  background-color:  rgba(255,255,255,0);
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #262229;
+  background-color: white;
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-  border-color: #262229;
+  border-color: white;
 }
 .navbar-default .navbar-link {
-  color: #262229;
+  color: white;
 }
 .navbar-default .navbar-link:hover {
-  color: #262229;
+  color: white;
 }
 
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #262229;
+    color: white;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #262229;
+    color: white;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #262229;
-    background-color: #ffffff;
+    color: white;
+    background-color:  rgba(255,255,255,0);
   }
 }
