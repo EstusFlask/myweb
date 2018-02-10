@@ -3,7 +3,7 @@
 
 */
 @import url('https://fonts.googleapis.com/css?family=Roboto');
-
+@import url('https://fonts.googleapis.com/css?family=Questrial');
 
 body {
   
@@ -12,12 +12,12 @@ body {
 
 .container {
   margin: 0 auto;
-  background:linear-gradient(180deg, #00427F, #0083FF);
+  background:linear-gradient(180deg, #303F9F, #3F51B5);
   width: 100%;
 }
 
 #particlespace {
-  height: 500px;
+  height: 800px;
   
 }
 
@@ -27,38 +27,49 @@ body {
 
 #mybrand, #bs-example-navbar-collapse-1 {
  font-family: 'Roboto', sans-serif;
+ color: #C5CAE9;
+ text-align: center;
 }
 
+.iconini {
+  color: #C5CAE9;
+}
+
+.webtit {
+   font-family: 'Questrial', sans-serif;
+   font-size: 1.4em;
+   color: #FFFFFF;
+}
 .navbar-default {
   background-color: rgba(255,255,255,0);
   border-color:  rgba(255,255,255,0);;
 }
 .navbar-default .navbar-brand {
-  color: white;
+  color: #FFFFFF;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: white;
+  color: #FFFFFF;
 }
 .navbar-default .navbar-text {
-  color: white;
+  color: #FFFFFF;
 }
 .navbar-default .navbar-nav > li > a {
-  color: white;
+  color: #FFFFFF;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: white;
+  color: #FFFFFF;
 }
 .navbar-default .navbar-nav > li > .dropdown-menu {
   background-color:  rgba(255,255,255,0);
 }
 .navbar-default .navbar-nav > li > .dropdown-menu > li > a {
-  color: white;
+  color: #FFFFFF;
 }
 .navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
 .navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
-  color: white;
+  color: #FFFFFF;
   background-color:  rgba(255,255,255,0);
 }
 .navbar-default .navbar-nav > li > .dropdown-menu > li.divider {
@@ -67,19 +78,19 @@ body {
 .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
 .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
 .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-  color: white;
+  color: #FFFFFF;
   background-color:  rgba(255,255,255,0);
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: white;
+  color: #FFFFFF;
   background-color:  rgba(255,255,255,0);
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-  color: white;
+  color: #FFFFFF;
   background-color:  rgba(255,255,255,0);
 }
 .navbar-default .navbar-toggle {
@@ -90,31 +101,31 @@ body {
   background-color:  rgba(255,255,255,0);
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: white;
+  background-color: #FFFFFF;
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-  border-color: white;
+  border-color: #FFFFFF;
 }
 .navbar-default .navbar-link {
-  color: white;
+  color: #FFFFFF;
 }
 .navbar-default .navbar-link:hover {
-  color: white;
+  color: #FFFFFF;
 }
 
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: white;
+    color: #FFFFFF;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: white;
+    color: #FFFFFF;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: white;
+    color: #FFFFFF;
     background-color:  rgba(255,255,255,0);
   }
 }
