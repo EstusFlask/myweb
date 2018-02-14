@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Questrial');
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
 body {
   
   /*background-color:#fff;*/
@@ -17,8 +18,14 @@ body {
 }
 
 #particlespace {
+  color:#E8E7E7;
   height: 800px;
-  
+  margin-top: 50px;
+  /*background:powderblue;*/
+  text-align: center;
+  line-height: 0.9;
+  font-size: 5em;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 #row1 {
@@ -26,13 +33,24 @@ body {
 }
 
 #mybrand, #bs-example-navbar-collapse-1 {
- font-family: 'Roboto', sans-serif;
+ font-family: 'Josefin Sans', sans-serif;
  color: #FFC300;
  text-align: center;
 }
 
 .iconini {
   color: #FFC300;
+}
+
+.palabraweb {
+  font-size: 1.3em;
+  vertical-align: center;
+}
+
+#icontit {
+  font-size: .2em;
+  line-height: 3;
+  vertical-align: center;
 }
 
 .webtit {
