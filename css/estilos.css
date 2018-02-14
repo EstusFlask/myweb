@@ -6,6 +6,10 @@
 @import url('https://fonts.googleapis.com/css?family=Questrial');
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+
+
 body {
   
   /*background-color:#fff;*/
@@ -17,20 +21,9 @@ body {
   width: 100%;
 }
 
-#particlespace {
-  color:#E8E7E7;
-  height: 800px;
-  margin-top: 50px;
-  /*background:powderblue;*/
-  text-align: center;
-  line-height: 0.9;
-  font-size: 5em;
-  font-family: 'Josefin Sans', sans-serif;
-}
 
-#row1 {
-  margin-top: 20px;
-}
+
+/*Brand*/
 
 #mybrand, #bs-example-navbar-collapse-1 {
  font-family: 'Josefin Sans', sans-serif;
@@ -41,14 +34,34 @@ body {
 .iconini {
   color: #FFC300;
 }
+/*Primer div*/
+#row1 {
+  margin-top: 15px;
+}
+
+#firstdiv {
+  color: #E8E7E7;
+  padding: 10%;
+  vertical-align: center;
+  text-align: center;
+  line-height: 0.9;
+  font-size: 5em;
+  font-family: 'Dosis', sans-serif;
+}
+
+#firstdiv img {
+  border-radius: 50%;
+  border:2px solid #E8E7E7;
+  width: 20%;
+}
 
 .palabraweb {
   font-size: 1.3em;
-  vertical-align: center;
+  font-family: 'Dosis', sans-serif;
 }
 
 #icontit {
-  font-size: .2em;
+  font-size: .5em;
   line-height: 3;
   vertical-align: center;
 }
@@ -146,4 +159,13 @@ body {
     color: #E8E7E7;
     background-color:  rgba(255,255,255,0);
   }
+
+  #firstdiv {
+    padding-top: 5%;
+    padding-bottom: 25%; 
+  }
+
+  #firstdiv img {
+  width: 40%;
+}
 }
