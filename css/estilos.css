@@ -17,7 +17,7 @@ body {
 
 .container {
   margin: 0 auto;
-  background:linear-gradient(180deg, #2F2D2D, #2F2D2D);
+  background:linear-gradient(180deg, #E8E7E7,#E8E7E7);
   width: 100%;
 }
 
@@ -34,12 +34,27 @@ body {
 .iconini {
   color: #FFC300;
 }
-/*Primer div*/
+
+/*Menú*/
 #row1 {
   margin-top: 15px;
 }
 
+.menutit {
+  display: none !important;
+}
+
+#menunav {
+  padding-left:2%; 
+  padding-right:2%;
+}
+
+
+/*Primer div*/
+
 #firstdiv {
+  background:linear-gradient(rgba(47, 45, 45,.8),rgba(47, 45, 45,.8) ), url('../img/yoescritorioDesktop.png') top center;
+  background-size: cover;
   color: #E8E7E7;
   padding: 10%;
   vertical-align: center;
@@ -47,6 +62,8 @@ body {
   line-height: 0.9;
   font-size: 5em;
   font-family: 'Dosis', sans-serif;
+  border-radius: 0;
+  border-top: 1px solid  #E8E7E7;
 }
 
 #firstdiv img {
@@ -54,6 +71,18 @@ body {
   border:2px solid #E8E7E7;
   width: 20%;
 }
+
+.textofirstdiv {
+  font-size: .5em;
+  margin-top: 30px;
+}
+
+.fa-chevron-circle-down {
+  margin-top: 10px;
+  color:#E8E7E7;
+  font-size: 1.6em;
+}
+
 
 .palabraweb {
   font-size: 1.3em;
@@ -69,39 +98,109 @@ body {
 .webtit {
    font-family: 'Josefin Sans', sans-serif;
    font-size: 2em;
-   color: #E8E7E7;
+   color: #2F2D2D;
 }
+
+/*Segundo div*/
+#seconddiv {
+  background: linear-gradient(rgba(232, 231, 231,.8),rgba(232, 231, 231,.8) ), url('../img/yoescritorioDesktop.png') top center;
+  background-size: cover;
+  color: #2F2D2D;
+  padding: 5%;
+  padding-top: 3%;
+  vertical-align: center;
+  text-align: center;
+  line-height: 0.9;
+  font-size: 5em;
+  font-family: 'Dosis', sans-serif;
+  border-radius: 0;
+  border-top: 1px solid white;
+}
+
+#seconddiv h1 {
+  font-size: 1em;
+}
+
+#seconddiv p {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: .3em;
+}
+
+.myskill {
+  font-size: .5em;
+  margin-bottom: 20px;
+}
+
+.fa-html5{
+  color: tomato;
+  font-size: 3em;
+  margin-top:10px;
+}
+
+.fa-js-square {
+  color: #f3df49;
+  font-size: 3em;
+  margin-top:10px;
+}
+
+.fa-css3-alt {
+  color:  #6495ED;
+  font-size: 3em;
+  margin-top:10px;
+}
+
+.fa-php {
+  color:  #663399;
+  font-size: 3em;
+  margin-top:10px;
+}
+
+.fa-coffee {
+color: tomato;
+font-size: 3em;
+margin-top:10px;
+}
+
+.fa-database {
+  color: green;
+  font-size: 3em;
+  margin-top:10px;
+}
+
+
+/*Colores redefinidos en bootstrap*/
 .navbar-default {
-  background-color: rgba(255,255,255,0);
-  border-color:  rgba(255,255,255,0);;
+  background-color: #E8E7E7;
+  border-color: #E8E7E7;;
 }
 .navbar-default .navbar-brand {
-  color: #E8E7E7;
+  color: #2F2D2D;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #E8E7E7;
+  color: #2F2D2D;
 }
 .navbar-default .navbar-text {
-  color: #E8E7E7;
+  color: #2F2D2D;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #E8E7E7;
+  color: #2F2D2D;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #E8E7E7;
+  color: #2F2D2D;
 }
 .navbar-default .navbar-nav > li > .dropdown-menu {
-  background-color:  rgba(255,255,255,0);
+  background-color: #E8E7E7;
 }
 .navbar-default .navbar-nav > li > .dropdown-menu > li > a {
-  color: #E8E7E7;
+  color: #2F2D2D;
 }
 .navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
 .navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
-  color: #E8E7E7;
-  background-color:  rgba(255,255,255,0);
+  color: #2F2D2D;
+  background-color:#E8E7E7;
 }
 .navbar-default .navbar-nav > li > .dropdown-menu > li.divider {
   background-color:  rgba(255,255,255,0);
@@ -109,63 +208,86 @@ body {
 .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
 .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
 .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-  color: #E8E7E7;
-  background-color:  rgba(255,255,255,0);
+  color: #2F2D2D;
+  background-color:#E8E7E7;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #E8E7E7;
-  background-color:  rgba(255,255,255,0);
+  color: #2F2D2D;
+  background-color:#E8E7E7;
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-  color: #E8E7E7;
-  background-color:  rgba(255,255,255,0);
+  color: #2F2D2D;
+  background-color:#E8E7E7;
 }
 .navbar-default .navbar-toggle {
   border-color:  rgba(255,255,255,0);;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color:  rgba(255,255,255,0);
+  background-color:#E8E7E7;
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #E8E7E7;
+  background-color:#2F2D2D;
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-  border-color: #E8E7E7;
+  border-color:#E8E7E7;
 }
 .navbar-default .navbar-link {
-  color: #E8E7E7;
+  color: #2F2D2D;
 }
 .navbar-default .navbar-link:hover {
-  color: #E8E7E7;
+  color: #2F2D2D;
 }
 
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #E8E7E7;
+    color: #2F2D2D;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #E8E7E7;
+    color:#2F2D2D;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #E8E7E7;
-    background-color:  rgba(255,255,255,0);
+    color: #2F2D2D;
+    background-color:#E8E7E7;
   }
 
   #firstdiv {
-    padding-top: 5%;
-    padding-bottom: 25%; 
+    background:linear-gradient(rgba(47, 45, 45,.8),rgba(47, 45, 45,.8) ), url('../img/yoescritorio.jpg') top center;
+    background-size: cover;
+    padding-top: 30%;
+    padding-bottom: 30%; 
   }
 
   #firstdiv img {
   width: 40%;
-}
+  }
+
+
+  
+
+  .nav-header {
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar-collapse {
+    border-top: 0px solid black;
+    box-shadow: none;
+    width: 100%;
+  }
+
+  .menutit {
+    margin-top: 50px;
+    display: block !important;
+  }
+
+  
 }
