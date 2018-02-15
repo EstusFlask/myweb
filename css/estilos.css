@@ -10,6 +10,12 @@
 @import url('https://fonts.googleapis.com/css?family=Dosis');
 
 
+html {
+    scroll-behavior: smooth
+}
+
+
+
 body {
   
   /*background-color:#fff;*/
@@ -44,15 +50,10 @@ body {
   display: none !important;
 }
 
-#menunav {
-  padding-left:2%; 
-  padding-right:2%;
-}
 
+/*Primer div y hablaconmigo*/
 
-/*Primer div*/
-
-#firstdiv {
+#firstdiv, #hablaconmigodiv {
   background:linear-gradient(rgba(47, 45, 45,.8),rgba(47, 45, 45,.8) ), url('../img/yoescritorioDesktop.png') top center;
   background-size: cover;
   color: #E8E7E7;
@@ -101,9 +102,9 @@ body {
    color: #2F2D2D;
 }
 
-/*Segundo div*/
-#seconddiv {
-  background: linear-gradient(rgba(232, 231, 231,.8),rgba(232, 231, 231,.8) ), url('../img/yoescritorioDesktop.png') top center;
+/*Div tecnologias*/
+#tecnologiasdiv {
+  background: linear-gradient(rgb(232, 231, 231),rgb(232, 231, 231));
   background-size: cover;
   color: #2F2D2D;
   padding: 5%;
@@ -117,11 +118,11 @@ body {
   border-top: 1px solid white;
 }
 
-#seconddiv h1 {
+#tecnologiasdiv h1 {
   font-size: 1em;
 }
 
-#seconddiv p {
+#tecnologiasdiv p {
   margin-top: 20px;
   margin-bottom: 30px;
   font-size: .3em;
@@ -163,10 +164,33 @@ margin-top:10px;
 }
 
 .fa-database {
-  color: green;
+  color: #ff9900;
   font-size: 3em;
   margin-top:10px;
 }
+
+
+/*Hablaconmigo sección*/
+
+#hablaconmigodiv {
+  font-size: 5em;
+  background: linear-gradient(rgba(232, 231, 231,.9),rgba(232, 231, 231,.9)), url('../img/teclado.jpg') top center;
+  background-size: cover;
+  color: #2F2D2D;
+}
+
+#hablaconmigodiv h1 {
+  font-size: 1em;
+}
+
+#hablaconmigodiv p {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: .3em;
+  line-height: 1;
+}
+
+
 
 
 /*Colores redefinidos en bootstrap*/
