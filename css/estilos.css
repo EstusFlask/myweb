@@ -50,10 +50,22 @@ body {
   display: none !important;
 }
 
+<<<<<<< HEAD
 
 /*Primer div y hablaconmigo*/
 
 #firstdiv, #hablaconmigodiv {
+=======
+#menunav {
+  padding-left:2%; 
+  padding-right:2%;
+}
+
+
+/*Primer div*/
+
+#firstdiv {
+>>>>>>> 2c29d6bb5c466125d48aba50cdadf97e15b95cfe
   background:linear-gradient(rgba(47, 45, 45,.8),rgba(47, 45, 45,.8) ), url('../img/yoescritorioDesktop.png') top center;
   background-size: cover;
   color: #E8E7E7;
@@ -100,6 +112,7 @@ body {
    font-family: 'Josefin Sans', sans-serif;
    font-size: 2em;
    color: #2F2D2D;
+<<<<<<< HEAD
 }
 
 /*Div tecnologias*/
@@ -165,11 +178,79 @@ margin-top:10px;
 
 .fa-database {
   color: #ff9900;
+=======
+}
+
+/*Segundo div*/
+#seconddiv {
+  background: linear-gradient(rgba(232, 231, 231,.8),rgba(232, 231, 231,.8) ), url('../img/yoescritorioDesktop.png') top center;
+  background-size: cover;
+  color: #2F2D2D;
+  padding: 5%;
+  padding-top: 3%;
+  vertical-align: center;
+  text-align: center;
+  line-height: 0.9;
+  font-size: 5em;
+  font-family: 'Dosis', sans-serif;
+  border-radius: 0;
+  border-top: 1px solid white;
+}
+
+#seconddiv h1 {
+  font-size: 1em;
+}
+
+#seconddiv p {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: .3em;
+}
+
+.myskill {
+  font-size: .5em;
+  margin-bottom: 20px;
+}
+
+.fa-html5{
+  color: tomato;
+  font-size: 3em;
+  margin-top:10px;
+}
+
+.fa-js-square {
+  color: #f3df49;
+  font-size: 3em;
+  margin-top:10px;
+}
+
+.fa-css3-alt {
+  color:  #6495ED;
+  font-size: 3em;
+  margin-top:10px;
+}
+
+.fa-php {
+  color:  #663399;
+  font-size: 3em;
+  margin-top:10px;
+}
+
+.fa-coffee {
+color: tomato;
+font-size: 3em;
+margin-top:10px;
+}
+
+.fa-database {
+  color: green;
+>>>>>>> 2c29d6bb5c466125d48aba50cdadf97e15b95cfe
   font-size: 3em;
   margin-top:10px;
 }
 
 
+<<<<<<< HEAD
 /*Hablaconmigo sección*/
 
 #hablaconmigodiv {
@@ -193,6 +274,8 @@ margin-top:10px;
 
 
 
+=======
+>>>>>>> 2c29d6bb5c466125d48aba50cdadf97e15b95cfe
 /*Colores redefinidos en bootstrap*/
 .navbar-default {
   background-color: #E8E7E7;
