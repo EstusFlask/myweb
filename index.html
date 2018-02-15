@@ -4,11 +4,13 @@
 	<meta charset="UTF-8"/>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Toni RZV</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<!-- Primero carga bootstrap y luego el css propio -->
 	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/estilos.css"/>
 	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<!-- Scroll -->
+	<script src="js/smooth-scroll.min.js"></script>
 </head>
 <body>
 	<div class="container">
@@ -34,9 +36,9 @@
 				      <ul class="nav navbar-nav navbar-right">
 				      	<!-- <br class="menutit"> </br> -->
 				      	<li class="menutit">- MENÚ -</li>
-				      	<li><a href="#hablaconmigodiv"><i class="fab fa-stack-exchange"></i> HABLA CONMIGO</a></li>
-				      	<li><a href="#proyectosdiv"><i class="fas fa-laptop"></i> PROYECTOS</a></li>
-				        <li><a href="#tecnologiasdiv"><i class="fas fa-microchip"></i> TECNOLOGÍAS</a></li>
+				      	<li><a data-scroll href="#hablaconmigodiv"><i class="fab fa-stack-exchange"></i> HABLA CONMIGO</a></li>
+				      	<li><a data-scroll href="#proyectosdiv"><i class="fas fa-briefcase"></i> CÓMO TRABAJO</a></li>
+				        <li><a data-scroll href="#tecnologiasdiv"><i class="fas fa-microchip"></i> TECNOLOGÍAS</a></li>
 				      </ul>
 				    </div><!-- /.navbar-collapse -->
 				  </div><!-- /.container-fluid -->
@@ -49,8 +51,8 @@
 			<i id="icontit" class="fas fa-code"></i><br>
 			<p class="textofirstdiv">
 				¿Necesitas una web?<br><br> 
-				Habla conmigo 
-				<a href="#hablaconmigodiv" id="hablaconmigo">
+				habla conmigo <br>
+				<a data-scroll href="#hablaconmigodiv" id="hablaconmigo">
 					<i class="fas fa-chevron-circle-down"></i>
 				</a>
 			</p>
@@ -58,7 +60,8 @@
 		</div>
 		<div class="row" id="hablaconmigodiv">
 			<h1><i class="fab fa-stack-exchange"></i> habla conmigo</h1>
-			<p>Tu web será a medida. Se valorarán tus necesidades mediante una entrevista en persona o vía Skype donde al llegar a un acuerdo se te facilitará una fecha para recibir un presupuesto junto a los detalles de fecha de entrega del proyecto.</p>
+			<h2>Tu web, a medida.</h2>
+			<p>Se valorarán tus necesidades mediante una entrevista en persona o vía Skype donde al llegar a un acuerdo se te facilitará una fecha para recibir un presupuesto junto a los detalles de fecha de entrega del proyecto.</p>
 			<a href="https://api.whatsapp.com/send?phone=+34648269348">
 			<i class="fab fa-whatsapp"></i>
 			</a>
@@ -84,6 +87,6 @@
 		<script src="jquery/jquery.js"></script>
 		<script src="bootstrap/js/bootstrap.min.js"></script>
 		<script src="js/runner.js"></script>
-
+		<script src="js/initializer.js"></script>
 </body>
 </html>
