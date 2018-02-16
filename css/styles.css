@@ -173,6 +173,7 @@ margin-top:10px;
 }
 
 .navbar-toggle {
+  border:0px solid white;
   margin-top:15px;
   padding: 0px;
 }
@@ -279,6 +280,11 @@ margin-top:10px;
   #firstdiv img {
     width: 40%;
   }
+
+  .navbar-nav {
+    font-size: 1.4em;
+  }
+
 
   .nav-header {
     width: 100%;
