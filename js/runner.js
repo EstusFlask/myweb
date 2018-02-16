@@ -13,9 +13,12 @@ var flipflap = function(){
 		setTimeout(flipflap());
 	}
 
-
 $(function(){
+	//Animación icono menú.
+	$('.animated-icon3').click(function(){
+        $(this).toggleClass('open');
+  	});
+  	//Animación botón flotando.
 	flipflap();
 });
-
 
