@@ -8,7 +8,7 @@
 
 .container {
   margin: 0 auto;
-  background:linear-gradient(180deg, #E8E7E7,#E8E7E7);
+  background:linear-gradient(180deg, rgba(255,255,255,.7),rgba(255,255,255,.7));
   width: 100%;
 }
 
@@ -23,13 +23,27 @@
   color: #FFC300;
 }
 
+/*Social networks*/
+
+#misredes {
+  display:none;
+}
+
 /*Menú*/
 #row1 {
-  margin-top: 15px;
+  margin-top: 0px;
 }
 
 .menutit {
   display: none !important;
+}
+
+.navbar {
+  margin-bottom: 0px;
+}
+
+.navbar-fixed-top {
+  border:0px solid white;
 }
 
 
@@ -38,7 +52,7 @@
 #firstdiv, #hablaconmigodiv {
   background:linear-gradient(rgba(47, 45, 45,.5),rgba(47, 45, 45,.5) ), url('../img/yoescritorioDesktop.png') top center;
   background-size: cover;
-  color: #E8E7E7;
+  color: #FFFFFF;
   padding: 10%;
   vertical-align: center;
   text-align: center;
@@ -46,12 +60,12 @@
   font-size: 4em;
   font-family: 'Dosis', sans-serif;
   border-radius: 0;
-  border-top: 1px solid  #E8E7E7;
+  border-top: 0px solid  #FFFFFF;
 }
 
 #firstdiv img {
   border-radius: 50%;
-  border:2px solid #E8E7E7;
+  border:2px solid #FFFFFF;
   width: 20%;
 }
 
@@ -60,10 +74,10 @@
   margin-top: 30px;
 }
 
-.fa-chevron-circle-down {
+.fa-angle-down {
   margin-top: 10px;
-  color:#E8E7E7;
-  font-size: 1.6em;
+  color:#FFFFFF;
+  font-size: 1.3em;
 }
 
 
@@ -81,7 +95,7 @@
 .webtit {
    font-family: 'Josefin Sans', sans-serif;
    font-size: 2em;
-   color: #2F2D2D;
+   color:#1D4856;
 }
 
 /*Div tecnologias*/
@@ -158,7 +172,7 @@ margin-top:10px;
   font-size: 5em;
   background: linear-gradient(rgba(232, 231, 231,.9),rgba(232, 231, 231,.9)), url('../img/teclado.jpg') top center;
   background-size: cover;
-  color: #2F2D2D;
+  color:#1D4856;
 }
 
 #hablaconmigodiv h1 {
@@ -182,92 +196,137 @@ margin-top:10px;
 
 /*Colores redefinidos en bootstrap*/
 .navbar-default {
-  background-color: #E8E7E7;
-  border-color: #E8E7E7;;
+  background-color:rgba(255,255,255,1);
+  border-color:rgba(255,255,255,1);
 }
+
 .navbar-default .navbar-brand {
-  color: #2F2D2D;
+  color:#1D4856;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #2F2D2D;
+  color:#1D4856;
 }
 .navbar-default .navbar-text {
-  color: #2F2D2D;
+  color:#1D4856;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #2F2D2D;
+  color:#1D4856;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #2F2D2D;
+  color:#1D4856;
 }
 .navbar-default .navbar-nav > li > .dropdown-menu {
-  background-color: #E8E7E7;
+  background-color:#FFFFFF;
 }
 .navbar-default .navbar-nav > li > .dropdown-menu > li > a {
-  color: #2F2D2D;
+  color:#1D4856;
 }
 .navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
 .navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
-  color: #2F2D2D;
-  background-color:#E8E7E7;
+  color:#1D4856;
+  background-color:#FFFFFF;
 }
 .navbar-default .navbar-nav > li > .dropdown-menu > li.divider {
-  background-color:  rgba(255,255,255,0);
+  background-color:#FFFFFF;
 }
 .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
 .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
 .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-  color: #2F2D2D;
-  background-color:#E8E7E7;
+  color:#1D4856;
+  background-color:#FFFFFF;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #2F2D2D;
-  background-color:#E8E7E7;
+  color:#1D4856;
+  background-color:#FFFFFF;
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-  color: #2F2D2D;
-  background-color:#E8E7E7;
+  color:#1D4856;
+  background-color:#FFFFFF;
 }
 .navbar-default .navbar-toggle {
-  border-color:  rgba(255,255,255,0);;
+  border-color:#FFFFFF;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color:#E8E7E7;
+  background-color:#FFFFFF;
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background-color:#2F2D2D;
+  background-color:#FFFFFF;
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-  border-color:#E8E7E7;
+  border-color:#FFFFFF;
 }
 .navbar-default .navbar-link {
-  color: #2F2D2D;
+  color:#1D4856;
 }
 .navbar-default .navbar-link:hover {
-  color: #2F2D2D;
+  color:#1D4856;
 }
 
-@media (max-width: 767px) {
+
+
+
+
+
+@media (max-width: 1030px) {
+  /* Ancho redefinido para iPad y otras tablets */
+  .navbar-header {
+      float: none;
+  }
+  .navbar-left,.navbar-right {
+      float: none !important;
+  }
+  .navbar-toggle {
+      display: block;
+  }
+  .navbar-collapse {
+      border-top: 1px solid transparent;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+  .navbar-fixed-top {
+      top: 0;
+      border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+      display: none!important;
+  }
+  .navbar-nav {
+      float: none!important;
+      margin-top: 7.5px;
+  }
+  .navbar-nav>li {
+      float: none;
+  }
+  .navbar-nav>li>a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+  .collapse.in{
+      display:block !important;
+  }
+
+
+
+  /* Colores redefinidos en responsive design */
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #2F2D2D;
+    color:#FFFFFF;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color:#2F2D2D;
+    color:#FFFFFF;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #2F2D2D;
-    background-color:#E8E7E7;
+    color:#FFFFFF;
+    background-color:#FFFFFF;
   }
 
   #firstdiv {
@@ -280,27 +339,48 @@ margin-top:10px;
   #firstdiv img {
     width: 40%;
   }
-
-  .navbar-nav {
-    font-size: 1.4em;
+/*Menú nav*/
+  #mybrand {
+    font-size: 1em;
   }
 
+.navbar-header {
+font-size: 1em;
+}
 
-  .nav-header {
-    width: 100%;
-    text-align: center;
-  }
+.nav-header {
+width: 100%;
+text-align: center;
+}
 
-  .navbar-collapse {
-    border-top: 0px solid black;
-    box-shadow: none;
-    width: 100%;
-  }
+.navbar-collapse {
+border-top: 0px solid black;
+box-shadow: none;
+width: 100%;
+}
+.menutit {
+margin-top: 25px;
+display: block !important;
+}
 
-  .menutit {
-    margin-top: 50px;
-    display: block !important;
-  }
+/*Social Networks*/
+
+#misredes {
+margin-top: 20px;
+display: block;
+}
+
+#misredes li {
+background: black;
+}
+
+#misredes a{
+padding:10px;
+font-size: 1.3em;
+color: black;
+}
+
+}
 
 
 
@@ -362,11 +442,11 @@ margin-top:10px;
 }
 
 .animated-icon1 span {
-    background:  #2F2D2D;
+    background:#1D4856
 }
 
 .animated-icon3 span {
-    background: #2F2D2D;
+    background: #1D4856;
 }
 
 .animated-icon4 span {
@@ -494,8 +574,6 @@ margin-top:10px;
   top: 21px;
   left: 8px;
 }
-     
-
 
 
 
