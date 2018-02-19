@@ -167,7 +167,6 @@ margin-top:10px;
 
 
 /*Hablaconmigo sección*/
-
 #hablaconmigodiv {
   font-size: 5em;
   background: linear-gradient(rgba(232, 231, 231,.9),rgba(232, 231, 231,.9)), url('../img/teclado.jpg') top center;
@@ -312,8 +311,6 @@ margin-top:10px;
       display:block !important;
   }
 
-
-
   /* Colores redefinidos en responsive design */
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color:#FFFFFF;
@@ -339,46 +336,47 @@ margin-top:10px;
   #firstdiv img {
     width: 40%;
   }
-/*Menú nav*/
+
+  /*Menú nav*/
   #mybrand {
     font-size: 1em;
   }
 
-.navbar-header {
-font-size: 1em;
-}
+  .navbar-header {
+    font-size: 1em;
+  }
 
-.nav-header {
-width: 100%;
-text-align: center;
-}
+  .nav-header {
+    width: 100%;
+    text-align: center;
+  }
 
-.navbar-collapse {
-border-top: 0px solid black;
-box-shadow: none;
-width: 100%;
-}
-.menutit {
-margin-top: 25px;
-display: block !important;
-}
+  .navbar-collapse {
+    border-top: 0px solid black;
+    box-shadow: none;
+    width: 100%;
+  }
+  .menutit {
+    margin-top: 25px;
+    display: block !important;
+  }
 
 /*Social Networks*/
 
-#misredes {
-margin-top: 20px;
-display: block;
-}
+  #misredes {
+    margin-top: 20px;
+    display: block;
+  }
 
-#misredes li {
-background: black;
-}
+  #misredes li {
+    background: black;
+  }
 
-#misredes a{
-padding:10px;
-font-size: 1.3em;
-color: black;
-}
+  #misredes a{
+    padding:10px;
+    font-size: 1.3em;
+    color: black;
+  }
 
 }
 
