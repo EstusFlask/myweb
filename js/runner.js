@@ -1,22 +1,24 @@
-
-var flipflap = function(){
-	$('#hablaconmigo').css('position','relative');
-	$('#hablaconmigo')
-	.animate({
-		opacity: '0.5'
-	},'slow')
-	.animate({
-		opacity:'1'
-	}, 'slow');
-		setTimeout(flipflap());
+var flagLogo = true;
+var myLogoSize = function(){
+	if (flagLogo==true) {
+		$('#mylogo').animate({ width: '35px'},'slow');
+				flagLogo=false;	
+				}
+	 else {
+		$('#mylogo').animate({width: '50px'},'slow');
+				flagLogo=true;
+		}
 	}
+	
 
 $(function(){
 	//Animación icono menú.
 	$('.animated-icon1').click(function(){
         $(this).toggleClass('open');
+        myLogoSize();
   	});
-  	//Animación botón flotando.
-	flipflap();
+  	
+
+	
 });
 

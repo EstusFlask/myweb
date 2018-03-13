@@ -6,25 +6,40 @@
 @import url('https://fonts.googleapis.com/css?family=Righteous');
 @import url('https://fonts.googleapis.com/css?family=Dosis');
 
+:root{
+
+  /*Mi paleta*/
+  --colorA:rgb(0, 252, 218);
+  --colorB:rgb(252, 24, 84);
+  --colorF:rgb(16, 16, 16);
+  --colorC:rgb(30, 30, 30);
+  --colorD:rgb(41, 42, 43);
+  --colorE:rgb(255,255,255);
+  --colorF:rgb(93, 94, 94);
+   /*var(--colorE);*/
+}
+
+
+
+
+body {
+    background:var(--colorD);
+}
+
+
 .container {
   margin: 0 auto;
-  background:linear-gradient(180deg, rgba(255,255,255,.7),rgba(255,255,255,.7));
+  background:linear-gradient(180deg, var(--colorC),var(--colorC));
   width: 100%;
 }
 
 /*Brand*/
 #mybrand, #bs-example-navbar-collapse-1 {
  font-family: 'Josefin Sans', sans-serif;
- color: #FFC300;
- text-align: center;
 }
 
-.iconini {
-  color: #FFC300;
-}
 
 /*Social networks*/
-
 #misredes {
   display:none;
 }
@@ -32,6 +47,25 @@
 /*Menú*/
 #row1 {
   margin-top: 0px;
+}
+
+#mylogo {
+  width: 50px;
+  position: relative;
+  bottom: 13px;
+  right: 0px;
+}
+
+#textomylogo {
+  position: relative;
+  bottom: 12px;
+  right: 5px;
+}
+
+.container-fluid {
+  border-bottom: 2px solid var(--colorA);
+  padding-right: 3%;
+  padding-left: 2%;
 }
 
 .menutit {
@@ -47,226 +81,92 @@
 }
 
 
+
 /*Primer div y hablaconmigo*/
 
-#firstdiv, #hablaconmigodiv {
-  background:linear-gradient(rgba(47, 45, 45,.5),rgba(47, 45, 45,.5) ), url('../img/yoescritorioDesktop.png') top center;
-  background-size: cover;
-  color: #FFFFFF;
-  padding: 10%;
-  vertical-align: center;
-  text-align: center;
-  line-height: 0.9;
-  font-size: 4em;
-  font-family: 'Dosis', sans-serif;
-  border-radius: 0;
-  border-top: 0px solid  #FFFFFF;
-}
-
-#firstdiv img {
-  border-radius: 50%;
-  border:2px solid #FFFFFF;
-  width: 20%;
-}
-
-.textofirstdiv {
-  font-size: .5em;
-  margin-top: 30px;
-}
-
-.fa-angle-down {
-  margin-top: 10px;
-  color:#FFFFFF;
-  font-size: 1.3em;
-}
 
 
-.palabraweb {
-  font-size: 1.3em;
-  font-family: 'Dosis', sans-serif;
-}
 
-#icontit {
-  font-size: .5em;
-  line-height: 3;
-  vertical-align: center;
-}
-
-.webtit {
-   font-family: 'Josefin Sans', sans-serif;
-   font-size: 2em;
-   color:#1D4856;
-}
-
-/*Div tecnologias*/
-#tecnologiasdiv {
-  background: linear-gradient(rgb(232, 231, 231),rgb(232, 231, 231));
-  background-size: cover;
-  color: #2F2D2D;
-  padding: 5%;
-  padding-top: 3%;
-  vertical-align: center;
-  text-align: center;
-  line-height: 0.9;
-  font-size: 5em;
-  font-family: 'Dosis', sans-serif;
-  border-radius: 0;
-  border-top: 1px solid white;
-}
-
-#tecnologiasdiv h1 {
-  font-size: 1em;
-}
-
-#tecnologiasdiv p {
-  margin-top: 50px;
-  margin-bottom: 50px;
-  font-size: .3em;
-}
-
-.myskill {
-  font-size: .5em;
-  margin-bottom: 20px;
-}
-
-.fa-html5{
-  color: tomato;
-  font-size: 3em;
-  margin-top:10px;
-}
-
-.fa-js-square {
-  color: #f3df49;
-  font-size: 3em;
-  margin-top:10px;
-}
-
-.fa-css3-alt {
-  color:  #6495ED;
-  font-size: 3em;
-  margin-top:10px;
-}
-
-.fa-php {
-  color:  #663399;
-  font-size: 3em;
-  margin-top:10px;
-}
-
-.fa-coffee {
-color: tomato;
-font-size: 3em;
-margin-top:10px;
-}
-
-.fa-database {
-  color: #ff9900;
-  font-size: 3em;
-  margin-top:10px;
-}
-
-
-/*Hablaconmigo sección*/
-#hablaconmigodiv {
-  font-size: 5em;
-  background: linear-gradient(rgba(232, 231, 231,.9),rgba(232, 231, 231,.9)), url('../img/teclado.jpg') top center;
-  background-size: cover;
-  color:#1D4856;
-}
-
-#hablaconmigodiv h1 {
-  font-size: 1em;
-}
-
-#hablaconmigodiv p {
-  margin-top: 40px;
-  margin-bottom: 40px;
-  font-size: .3em;
-  line-height: 1;
-}
-
+/*Colores redefinidos en bootstrap*/
 .navbar-toggle {
   border:0px solid white;
   margin-top:15px;
   padding: 0px;
 }
 
-
-
-/*Colores redefinidos en bootstrap*/
 .navbar-default {
-  background-color:rgba(255,255,255,1);
-  border-color:rgba(255,255,255,1);
+  background-color:var(--colorC);
+  border-color:var(--colorC);
 }
 
 .navbar-default .navbar-brand {
-  color:#1D4856;
+  color:var(--colorE);
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color:#1D4856;
+  color:var(--colorE);
 }
 .navbar-default .navbar-text {
-  color:#1D4856;
+  color:var(--colorE);
 }
 .navbar-default .navbar-nav > li > a {
-  color:#1D4856;
+  color:var(--colorE);
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color:#1D4856;
+  color:var(--colorE);
 }
 .navbar-default .navbar-nav > li > .dropdown-menu {
-  background-color:#FFFFFF;
+  background-color:var(--colorC);
 }
 .navbar-default .navbar-nav > li > .dropdown-menu > li > a {
-  color:#1D4856;
+  color:var(--colorE);
 }
 .navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
 .navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
-  color:#1D4856;
-  background-color:#FFFFFF;
+  color:var(--colorE);
+  background-color:var(--colorC);
 }
 .navbar-default .navbar-nav > li > .dropdown-menu > li.divider {
-  background-color:#FFFFFF;
+  background-color:var(--colorC);
 }
 .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
 .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
 .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-  color:#1D4856;
-  background-color:#FFFFFF;
+  color:var(--colorE);
+  background-color:var(--colorC);
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color:#1D4856;
-  background-color:#FFFFFF;
+  color:var(--colorE);
+  background-color:var(--colorC);
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-  color:#1D4856;
-  background-color:#FFFFFF;
+  color:var(--colorE);
+  background-color:var(--colorC);
 }
 .navbar-default .navbar-toggle {
-  border-color:#FFFFFF;
+  border-color:var(--colorC);
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color:#FFFFFF;
+  background-color:var(--colorC);
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background-color:#FFFFFF;
+  background-color:var(--colorC);
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-  border-color:#FFFFFF;
+  border-color:var(--colorC);
 }
 .navbar-default .navbar-link {
-  color:#1D4856;
+  color:var(--colorE);
 }
 .navbar-default .navbar-link:hover {
-  color:#1D4856;
+  color:var(--colorE);
 }
 
 
@@ -313,70 +213,41 @@ margin-top:10px;
 
   /* Colores redefinidos en responsive design */
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color:#FFFFFF;
+    color:var(--colorC);
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color:#FFFFFF;
+    color:var(--colorC);
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
     color:#FFFFFF;
-    background-color:#FFFFFF;
+    background-color:var(--colorC);
   }
 
-  #firstdiv {
-    background:linear-gradient(rgba(47, 45, 45,.8),rgba(47, 45, 45,.8) ), url(../img/yoescritorio.png) top center;
-    background-size: cover;
-    padding-top: 30%;
-    padding-bottom: 30%; 
-  }
-
-  #firstdiv img {
-    width: 40%;
-  }
-
-  /*Menú nav*/
-  #mybrand {
-    font-size: 1em;
-  }
-
-  .navbar-header {
-    font-size: 1em;
-  }
-
-  .nav-header {
-    width: 100%;
-    text-align: center;
-  }
-
+/*Corrección de border en el top del collapse*/
   .navbar-collapse {
-    border-top: 0px solid black;
-    box-shadow: none;
-    width: 100%;
-  }
-  .menutit {
-    margin-top: 25px;
-    display: block !important;
-  }
+    border-top: 0px solid transparent;
+    -webkit-box-shadow: inset 0 0px 0 rgba(255,255,255,.1);
+    box-shadow: inset 0 0px 0 rgba(255,255,255,.1);
+    border-top: 0px solid transparent; */
+    /* box-shadow: inset 0 1px 0 rgba(255,255,255,0.1); */
+}
 
-/*Social Networks*/
+ .nav {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+  width: 100%;
+ }
 
-  #misredes {
-    margin-top: 20px;
-    display: block;
-  }
-
-  #misredes li {
-    background: black;
-  }
-
-  #misredes a{
-    padding:10px;
-    font-size: 1.3em;
-    color: black;
-  }
+/*.container-fluid {
+  padding-right: 0%;
+  padding-left: 0%;
+}
+*/
 
 }
 
@@ -440,11 +311,11 @@ margin-top:10px;
 }
 
 .animated-icon1 span {
-    background:#1D4856
+    background:var(--colorE);
 }
 
 .animated-icon3 span {
-    background: #1D4856;
+    background: var(--colorE);
 }
 
 .animated-icon4 span {
