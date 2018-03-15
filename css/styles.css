@@ -20,12 +20,6 @@
    /*var(--colorE);*/
 }
 
-
-html, body {
-    height: 100%;
-}
-
-
 body {
     background:var(--colorD);
 }
@@ -57,15 +51,11 @@ body {
 
 #textomylogo {
   position: relative;
-  bottom: 12px;
   right: 5px;
+  bottom: 12px;
 }
 
-.container-fluid {
-  border-bottom: 2px solid var(--colorA);
-  padding-right: 3%;
-  padding-left: 2%;
-}
+
 
 .menutit {
   display: none !important;
@@ -75,16 +65,14 @@ body {
   margin-bottom: 0px;
 }
 
-.navbar-fixed-top {
-  border:0px solid white;
+#menunav {
+  border-bottom: 2px solid var(--colorA);
 }
 
 
 
 /*Content*/
 #content {
-  height: 100%;
-  min-height: 100%;
   background: var(--colorD);rgba(255,255,255,0);
 }
 
@@ -94,8 +82,7 @@ body {
   font-family: 'Josefin Sans', sans-serif;
   text-align: center;
   vertical-align: center;
-  margin-top: 150px;
-  height: 100%;
+  margin-top: 50px;
   color: var(--colorE);
 }
 
@@ -108,7 +95,9 @@ body {
 }
 
 #homelogo {
+  margin: 0 auto;
   margin-top: 5px;
+  width: 15%;
   top: 70px;
 }
 
@@ -133,6 +122,10 @@ body {
 
 .homedesarrollador {
   font-family: 'Rajdhani', sans-serif;
+}
+
+.homehtml {
+  width: 100%;
 }
 
 
@@ -298,11 +291,11 @@ body {
 }
 
 .h1home img {
-    width: 100px;
+    /*width: 100px;*/
 }
 
 .contactahome{
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 
 }
