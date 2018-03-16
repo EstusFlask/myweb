@@ -27,8 +27,8 @@ var myLogoSize = function(){
 
 $(function(){
 	//Animación icono menú.
-	$('.animated-icon1').click(function(){
-        $(this).toggleClass('open');
+	$('#navbutton').click(function(){
+        $('.animated-icon1').toggleClass('open');
         myLogoSize();
   	});
   	
@@ -36,7 +36,11 @@ $(function(){
 
 	$('#home').click(function(){
 		ajaxContent('home.html');
-	})
+	});
+
+	$('#about').click(function(){
+		ajaxContent('about.html');
+	});
 	
 });
 
