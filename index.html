@@ -1,57 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="webApp">
 <head>
 	<meta charset="UTF-8"/>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Toni RZV</title>
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<!-- Primero carga bootstrap y luego el css propio -->
 	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/styles.css"/>
 	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 </head>
-<body>
+<body ng-controller="mainCtrl">
 	<div class="container">
-		<div class="row" id="row1">
-			<div class="col-md-12" id="menunav">
-				<nav class="navbar navbar-default">
-				  <div class="container-fluid">
-				    <!-- Brand and toggle get grouped for better mobile display -->
-				    <div class="navbar-header">
-				      <button id="navbutton" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-				        <div class="animated-icon1">
-				        	<span></span>
-				        	<span></span>
-				        	<span></span>
-				        </div>
-				      </button>
-				      	<a class="navbar-brand" href="/" id="mybrand">
-					  	<p><img src="img/miT.png" alt="Logo Toni" id="mylogo"><span id="textomylogo">oni RZV</span></p>
-					  </a>	
-				    </div>
-
-				    <!-- Collect the nav links, forms, and other content for toggling -->
-				    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				      <ul class="nav navbar-nav navbar-right">
-				      	<!-- <br class="menutit"> </br> -->
-				      	<li><a id="home" href="#"><i class="fas fa-home fa-lg"></i></a></li>
-				      	<li><a href="#" id="about"><i class="far fa-user fa-lg"></i></a></li>
-				        <li><a href="#"><i class="fas fa-terminal fa-lg"></i></a></li>
-				      	<li><a href="#"><i class="far fa-envelope fa-lg"></i></a></li>
-				      </ul>
-				    </div><!-- /.navbar-collapse -->
-				  </div><!-- /.container-fluid -->
-				</nav>
-			</div>
-		</div>
-		<div class="row" id="content">
-			
+		<cabecera></cabecera>		
+		<div ng-view>
 		</div>
 	</div>
-		<!-- El orden tiene que ser el siguiente: jquery, bootstrap y tu rutina -->
-		<script type="application/x-javascript" src="jquery/jquery.js"></script>
-		<script type="application/x-javascript" src="bootstrap/js/bootstrap.min.js"></script>
-		<script type="application/x-javascript" src="js/runner.js"></script>
-		<script type="application/x-javascript" src="js/initializer.js"></script>
+	
+	<script src="../app/jquery/jquery.js"></script>		
+	<script src="../app/bootstrap/js/bootstrap.min.js"></script>
+	<script src="../app/angular/angular.js"></script>
+	<script src="../app/angular/ngRoute.js"></script>
+	<script type="application/x-javascript" src="jquery/jquery.js"></script>
+	<script type="application/x-javascript" src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="comp/cabecera.js"></script>
+	<script src="comp/home.js"></script>
 </body>
 </html>
